@@ -1,7 +1,7 @@
 def f_day1_1():
     l1 = []
     l2 = []
-    with open("input_day1.txt", "r") as f:
+    with open("input/input_day1.txt", "r") as f:
         for line in f:
             pair = line.strip().split("   ")
             l1.append(int(pair[0]))
@@ -19,7 +19,7 @@ def f_day1_1():
 def f_day1_2():
     s = {}
     l = []
-    with open("input_day1.txt", "r") as f:
+    with open("input/input_day1.txt", "r") as f:
         for line in f:
             pair = line.strip().split("   ")
             l.append([int(pair[0]), int(pair[1])])
@@ -41,4 +41,4 @@ def f_day1_2():
 
 
 if __name__ == '__main__':
-    print(f_day2_1())
+    print(f_day1_2())

@@ -1,6 +1,6 @@
 def f_day2_1():
     l = []
-    with open("input_day2.txt", "r") as f:
+    with open("input/input_day2.txt", "r") as f:
         for line in f:
             l.append([int(item) for item in list(line.strip().split(" "))])
     result = 0
@@ -38,7 +38,7 @@ def check_more_safe(list) -> bool:
 
 def f_day2_2():
     l = []
-    with open("input_day2.txt", "r") as f:
+    with open("input/input_day2.txt", "r") as f:
         for line in f:
             l.append([int(item) for item in list(line.strip().split(" "))])
     result = 0
